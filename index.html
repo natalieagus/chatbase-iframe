@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Centered Iframe</title>
+    <title>DDW Chatbot</title>
     <style>
       body {
         margin: 0;
         padding: 0;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         min-height: 100vh;
         background-color: #f0f0f0; /* Optional background color */
       }
@@ -18,11 +19,18 @@
       iframe {
         max-width: 1024px;
         width: 100%;
-        margin-top: 10vh; /* 10% of the viewport height */
+      }
+
+      h2 {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        /* The font-family property above specifies a generic font stack for system fonts */
       }
     </style>
   </head>
   <body>
+    <h2>10.020 Data Driven World</h2>
     <iframe
       src="https://www.chatbase.co/chatbot-iframe/KKO2rS1wYKTEyBJVRNa7e"
       width="100%"
